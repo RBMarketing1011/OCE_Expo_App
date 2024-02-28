@@ -1,20 +1,29 @@
 
-import { View, Text } from 'react-native'
-import { Heading } from '../components'
+import { StyleSheet, SafeAreaView } from 'react-native'
+import { Heading, StackScreen } from '../components'
 import { colors, font } from '../constants'
 
 const Register = () =>
 {
   return (
-    <View style={ styles.Register }>
+    <SafeAreaView style={ styles.container }>
+      <StackScreen title='261 Peters St SW' />
       <Heading
         text='Register Page'
         color={ colors.neutral900 }
-        font={ font.family.DMBold }
+        font={ font.family.MainFontBold }
         size={ font.size.xLarge }
       />
-    </View>
+    </SafeAreaView>
   )
 }
+
+const styles = StyleSheet.create({
+  container: {
+    height: '100%',
+    justifyContent: 'center',
+    alignItems: 'center'
+  }
+})
 
 export default Register

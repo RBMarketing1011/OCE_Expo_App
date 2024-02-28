@@ -1,6 +1,6 @@
 const colors = {
   neutral100: '#F5F5F5',
-  neutal500: '#7B91A3',
+  neutral500: '#7B91A3',
   neutral900: '#191F24',
 
   primary100: '#F99B8B',
@@ -16,13 +16,13 @@ const colors = {
 
 const font = {
   family: {
-    Linna: 'Linna',
-    DMRegular: 'DMRegular',
-    DMMedium: 'DMMedium',
-    DMBold: 'DMBold'
+    HeadingFont: 'Linna',
+    MainFontRegular: 'DMRegular',
+    MainFontMedium: 'DMMedium',
+    MainFontBold: 'DMBold'
   },
   size: {
-    xSmall: 15,
+    xSmall: 12,
     small: 17,
     medium: 20,
     large: 25,
